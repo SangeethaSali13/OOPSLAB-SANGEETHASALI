@@ -118,38 +118,11 @@ Teacher t[]=new Teacher[n];
 }
 
 
+***************************************************************************************
 
 
+OUTPUT
 
-C:\Users\hp\Desktop\program>javac Myclass.java
-
-C:\Users\hp\Desktop\program>java Myclass
-Enter the number of details to be entered
-2
-
-Employee Details
-
-
-Menu
-1.Insert
-2.Display
-3.Exit
-Enter your choice:1
-Enter the Name
-manu
-Enter the Gender
-28
-Enter the Age
-khjgc
-Exception in thread "main" java.util.InputMismatchException
-        at java.base/java.util.Scanner.throwFor(Scanner.java:939)
-        at java.base/java.util.Scanner.next(Scanner.java:1594)
-        at java.base/java.util.Scanner.nextInt(Scanner.java:2258)
-        at java.base/java.util.Scanner.nextInt(Scanner.java:2212)
-        at Person.Person(Myclass.java:15)
-        at Employee.Employee(Myclass.java:28)
-        at Teacher.<init>(Myclass.java:45)
-        at Myclass.main(Myclass.java:102)
 
 C:\Users\hp\Desktop\program>javac Myclass.java
 
