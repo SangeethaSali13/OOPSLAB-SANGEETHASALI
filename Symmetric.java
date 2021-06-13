@@ -58,19 +58,5 @@ class Symetric
 }
 
 
-*********************************************************************************************************************************
 
 
-OUTPUT
-
-
-C:\Users\hp\Desktop\program>javac Symmetric.java
-
-C:\Users\hp\Desktop\program>java Symmetric
-Enter rows and columns of matrix
-3 3
-Enter the elements
-1 2 3
-2 1 4
-3 4 3
-The given matrix is symmetric
