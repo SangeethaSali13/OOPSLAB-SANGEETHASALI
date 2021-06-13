@@ -40,29 +40,8 @@ public class employee {
 }
 
 
-*****************************************************************************************************************************
 
 
-OUTPUT
 
 
-C:\Users\hp\Desktop\program>javac employee.java
 
-C:\Users\hp\Desktop\program>java employee
-Enter the Limit
-2
-Enter employee No:
-101
-Enter employee Salary:
-50000
-Enter employee Name:
-Smith
-Enter employee No:
-105
-Enter employee Salary:
-30000
-Enter employee Name:
-Harsh
-Enter the eNo:
-105
-Employee found
