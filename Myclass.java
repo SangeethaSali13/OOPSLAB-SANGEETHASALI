@@ -1,4 +1,4 @@
-  import java.util.*;
+import java.util.*;
 class Person
 {
 String name,gender,address;
@@ -55,25 +55,26 @@ sub=sc.next();
 void display()
 {
 System.out.println("\nDetails are\n");
-	System.out.print("name = " + name);
+	System.out.print(name);
 	System.out.print("\t");
-	System.out.print("gender = " + gender);
+	System.out.print(gender);
 	System.out.print("\t");
-	System.out.print("age = " + age);
+	System.out.print(age);
 	System.out.print("\t");
-	System.out.print("address = " + address);
+	System.out.print(address);
 	System.out.print("\t");
-	System.out.print("company_name = " + company_name);
+	System.out.print(company_name);
 	System.out.print("\t");
-	System.out.print("qualification = " + qualification);
+	System.out.print(qualification);
 	System.out.print("\t");
-	System.out.print("salary = " + salary);
+	System.out.print(salary);
 	System.out.print("\t");
-	System.out.print("teacherid = " + teacherid);
+	System.out.print(teacherid);
 	System.out.print("\t");
-	System.out.print("department = " + dept);
+	System.out.print(dept);
 	System.out.print("\t");
-	System.out.print("subject = " + sub);
+	System.out.print(sub); 
+        System.out.print("\t"); 
 }
 }
 
@@ -86,7 +87,7 @@ int choice;
 Scanner sc=new Scanner(System.in);
 System.out.println("Enter the number of details to be entered");
 int n=sc.nextInt();
-Teacher t[]=new Teacher[n];
+Teacher tr[]=new Teacher[n];
 	  
 	   	do
 	{
@@ -99,12 +100,12 @@ Teacher t[]=new Teacher[n];
 		case 1:
 				for(int i=0;i<n;i++)
 				{
-				t[i]=new Teacher();		
+				tr[i]=new Teacher();		
 				}
 		break;
 		case 2:for(int i=0;i<n;i++)
 				{
-				t[i].display();
+				tr[i].display();
 				}		
 		break;
 		case 3:System.exit(0);
@@ -116,89 +117,4 @@ Teacher t[]=new Teacher[n];
 	}
 		
 }
-
-
-***************************************************************************************
-
-
-OUTPUT
-
-
-C:\Users\hp\Desktop\program>javac Myclass.java
-
-C:\Users\hp\Desktop\program>java Myclass
-Enter the number of details to be entered
-2
-
-Employee Details
-
-
-Menu
-1.Insert
-2.Display
-3.Exit
-Enter your choice:1
-Enter the Name
-manu
-Enter the Gender
-male
-Enter the Age
-28
-Enter the Address
-Ernakulam
-Enter the Company Name
-google
-Enter the Qualification
-mca
-Enter the Salary
-48000
-Enter the Teacher id
-121
-Enter the Department
-computer science
-Enter the Subject
-maths
-Enter the Name
-kiran
-Enter the Gender
-male
-Enter the Age
-30
-Enter the Address
-kozhikode
-Enter the Company Name
-apple
-Enter the Qualification
-BTech
-Enter the Salary
-50000
-Enter the Teacher id
-321
-Enter the Department
-Mechanical
-Enter the Subject
-Engineering physics
-
-Employee Details
-
-
-Menu
-1.Insert
-2.Display
-3.Exit
-Enter your choice:2
-
-Details are
-
-name = manu     gender = male   age = 28        address = Ernakulam     company_name = google   qualification = mca     salary = 48000.0        teacherid = 121 department = computer   subject = maths
-Details are
-
-name = kiran    gender = male   age = 30        address = kozhikode     company_name = apple    qualification = BTech   salary = 50000.0        teacherid = 321 department = Mechanical subject = Engineering
-Employee Details
-
-
-Menu
-1.Insert
-2.Display
-3.Exit
-Enter your choice:3
+	
