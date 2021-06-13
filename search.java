@@ -11,7 +11,7 @@ public class search {
 		System.out.println("Enter the elements:");
 		for(i=1;i<=n;i++)
 		{
-			a[i]=sc.nextInt();			
+			a[i]=sc.nextInt();
 		}
 		System.out.println("Enter the element to searched:");
 		search=sc.nextInt();
@@ -29,23 +29,8 @@ public class search {
 
 }
 
-******************************************************************************************************************************
 
 
-OUTPUT
 
 
-C:\Users\hp\Desktop\program>javac search.java
 
-C:\Users\hp\Desktop\program>java search
-Enter the number of elements:
-5
-Enter the elements:
-2
-4
-1
-5
-3
-Enter the element to searched:
-4
-4 Element found at 2 position
