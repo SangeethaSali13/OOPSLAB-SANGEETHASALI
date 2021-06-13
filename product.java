@@ -34,32 +34,4 @@ System.out.println(p[2].price+" is smallest price");
 }	
 
 
-*****************************************************************************************************
 
-
-OUTPUT
-
-
-
-C:\Users\hp\Desktop\program>javac product.java
-
-C:\Users\hp\Desktop\program>java product
-Enter the product name:
-book
-Enter the product code:
-101
-Enter the price:
-500
-Enter the product name:
-box
-Enter the product code:
-108
-Enter the price:
-300
-Enter the product name:
-pen
-Enter the product code:
-201
-Enter the price:
-100
-100 is smallest price		
