@@ -41,20 +41,3 @@ public class studentdet {
 
 
 
-****************************************************************************************
-
-
-OUTPUT
-
-
-C:\Users\hp\Desktop\program>javac studentdet.java
-
-C:\Users\hp\Desktop\program>java studentdet
-Enter marks out of 20:
-15
-Details of students are:
-Name:Arun
-Roll number:6
-Class Name:MCA
-Academic Mark:70
-Sports Mark:15
