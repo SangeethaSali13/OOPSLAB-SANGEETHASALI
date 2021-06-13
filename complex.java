@@ -15,22 +15,13 @@ public static void main(String a[])
 	double smr=c2.r+c1.r;
 	double smi=c2.i+c1.i;
 	System.out.println("Sum:"+smr+"+"+smi+"i");
+       }
 }
-}
-
-******************************************************************************************************
-
-OUTPUT
 
 
-C:\Users\hp\Desktop\program>javac complex.java
 
-C:\Users\hp\Desktop\program>java complex
-Enter the complex number:
-5.4
-10.5
-Enter the complex number:
-4.6
-9.5
-Sum:10.0+20.0i
+
+
+
+
 
