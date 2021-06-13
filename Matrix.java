@@ -18,10 +18,8 @@ class Matrix
 			{
 			a[i][j]=sc.nextInt();
 			}
-		}
-	
-	}
-	
+		}	
+	}	
 	void add(Matrix M1,Matrix M2)
 	{
 		for(int i=0;i<m;i++)
@@ -43,10 +41,8 @@ class Matrix
 				
 			}
 			System.out.println();
-		}
-	     
-	}
-				
+		}     
+	}			
 	public static void main(String args[])
 	{
 		Scanner sc=new Scanner(System.in);
@@ -62,30 +58,10 @@ class Matrix
 		Matrix M3=new Matrix(x,y);
 		M3.a=new int[x][y];
 		M3.add(M1,M2);
-		M3.display();
-		
+		M3.display();		
 	}
 }
 
 
 
-****************************************************************************************************************
 
-
-OUTPUT
-
-C:\Users\hp\Desktop>cd program/
-
-C:\Users\hp\Desktop\program>javac Matrix.java
-Enter the rows and coloumns of matrix
-2 2
-enter the elements of a matrix
-1 3
-6 8
-enter the elements of a matrix
-2 4
-5 7
-The sum of matrix is
-
-3 7
-11 15
